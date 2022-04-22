@@ -1,0 +1,6 @@
+PyMySQL
+aiogram
+requests
+json
+asyncio
+datetime
