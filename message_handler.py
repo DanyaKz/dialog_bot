@@ -112,7 +112,7 @@ class Message_init(Chat_init):
             self.set_last_act({'user_id':user_id,'act':3})
             await self.bot.send_message(user_id, send_msg , parse_mode='HTML')
             await self.bot.send_message(user_id, "Для поиска собеседника введите, либо нажмите команду /random" , parse_mode='HTML')
-        # set 3//4 for hobbies , ask to write messages of hobbies, then user set /confirm_hobbies
+        
         elif last_act not in [1,2]:
             await self.bot.send_message(user_id, f"Вы готовы к общению!\n{self.KB['random']}")
 
